@@ -10,13 +10,16 @@ public class p59 {
                 array[i]= sc.nextInt();
             }
             int key = sc.nextInt();
+            boolean found = false;
             for (int i = 0; i<size; i++) {
                 if (array[i] == key) {
                     System.out.println("1");
+                    found = true;
+                    break;
                 }
-                else {
-                    System.out.println("0");
-                }
+            }
+            if(!found){
+                System.out.println("0");
             }
             test--;
 
