@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class p61 {
     public static boolean duplicate(int[] array){
         for(int i = 0 ; i< array.length-1; i++){
